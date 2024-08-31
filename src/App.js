@@ -1,8 +1,13 @@
+import NavbarComponent from "./components/Navbar"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css"
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
     <div>
-      <h1>Arslan Akmal</h1>
+      <NavbarComponent/>
+      <Carousel/>
     </div>
   );
 }
