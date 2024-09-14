@@ -14,6 +14,8 @@ function NavbarComponent() {
           <Nav className="me-auto">
             <Nav.Link><Link to="/">Home</Link></Nav.Link>
             <Nav.Link><Link to="/products">Products</Link></Nav.Link>
+            <Nav.Link><Link to="/register">Register</Link></Nav.Link>
+
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
