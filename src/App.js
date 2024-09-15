@@ -8,6 +8,8 @@ import { Routes,Route } from "react-router-dom";
 import Products from "./components/Products";
 import ProductDescription from "./pages/ProductDescription";
 import Register from "./components/Register";
+import Parent from "./components/Parent";
+import TodosListing from "./pages/TodosListing";
 
 
 function App() {
@@ -19,8 +21,7 @@ function App() {
         <Route path="/products" element={<Products/>}/>
         <Route path="/products/:id" element={<ProductDescription/>}/>
         <Route path="/register" element={<Register/>}></Route>
-
-
+        <Route path="/todos" element={<TodosListing/>}></Route>
       </Routes>
       <ToastContainer/>
     </div>
