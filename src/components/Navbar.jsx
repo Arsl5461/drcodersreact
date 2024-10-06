@@ -16,6 +16,8 @@ function NavbarComponent() {
             <Nav.Link><Link to="/products">Products</Link></Nav.Link>
             <Nav.Link><Link to="/register">Register</Link></Nav.Link>
             <Nav.Link><Link to="/todos">Todos</Link></Nav.Link>
+            <Nav.Link><Link to="/todo">Create Todo</Link></Nav.Link>
+
 
 
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">

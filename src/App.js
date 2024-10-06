@@ -10,6 +10,7 @@ import ProductDescription from "./pages/ProductDescription";
 import Register from "./components/Register";
 import Parent from "./components/Parent";
 import TodosListing from "./pages/TodosListing";
+import CreateTodo from "./pages/CreateTodo";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/products/:id" element={<ProductDescription/>}/>
         <Route path="/register" element={<Register/>}></Route>
         <Route path="/todos" element={<TodosListing/>}></Route>
+        <Route path="/todo" element={<CreateTodo/>}></Route>
       </Routes>
       <ToastContainer/>
     </div>
