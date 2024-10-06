@@ -11,6 +11,7 @@ import Register from "./components/Register";
 import Parent from "./components/Parent";
 import TodosListing from "./pages/TodosListing";
 import CreateTodo from "./pages/CreateTodo";
+import UpdateTodo from "./pages/UpdateTodo";
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
         <Route path="/register" element={<Register/>}></Route>
         <Route path="/todos" element={<TodosListing/>}></Route>
         <Route path="/todo" element={<CreateTodo/>}></Route>
+        <Route path="/todos/:id" element={<UpdateTodo/>}></Route>
+
       </Routes>
       <ToastContainer/>
     </div>
